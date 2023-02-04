@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <h1>SIGNUP FORM</h1>
+        <form action="">
+            <div class="username">
+                Username : <br>
+                <input type="text" name="username" placeholder="Enter Your Username" required maxlength="15">
+            </div>
+
+            <br><br>
+
+            <div class="email">
+                Email : <br>
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+            </div>
+
+            <br><br>
+
+            <div class="password">
+                Password : <br>
+                <input type="password" name="password" placeholder="Enter Your Password" required maxlength="15">
+            </div>
+
+            <br><br>
+
+            <div class="password">
+                Confirm Password : <br>
+                <input type="password" name="password" placeholder="Confirm Your Password" required maxlength="15">
+            </div>
+
+            <br><br>
+
+            <div class="DoB">
+                Date Of Birth : <br>
+                <input type="date" name="date" required min="2010-12-31" max="2023-12-31">
+            </div>
+
+            <br>
+            <input type="submit"> <input type="reset">
+        </form>
+    </div>
+</body>
+</html>
